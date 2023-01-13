@@ -5,17 +5,19 @@
   position: fixed;
   top: 0px;
   left: 0px;
+
   display: flex;
   justify-content: center;
 
   font-family: Roboto;
+  font-size: 24px;
 }
 
-.header > div {
-  border: 1px solid black;
-  height: 99%;
+.header > .content {
+  height: 100%;
 
-  width: 1000px;
+  max-width: 1110px;
+  width: 100%;
   margin: auto;
 
   display: flex;
@@ -26,7 +28,6 @@
 .header .start {
   width: 184px;
   height: 45px;
-  background-color: rgb(179, 14, 121);
 
   display: flex;
   align-items: center;
@@ -35,40 +36,21 @@
 
 .header .center {
   height: 45px;
-  background-color: aqua;
 
   flex-grow: 1;
 }
 
 .header .end {
-  width: 300px;
+  width: 500px;
   height: 45px;
   color: #ffffff;
-  background-color: rgb(255, 111, 0);
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   flex-wrap: wrap;
 }
 
-.header .end a,
-span {
-  margin-right: 0.5rem;
-}
-
-.header .logo {
-  width: 184px;
-  height: 45px;
-}
-
-.header .header-buttons {
-  display: inline-block;
-  color: aliceblue;
-  margin: auto;
-  margin-right: 1rem;
-}
-
-.header .space {
-  flex-grow: 1;
+.header .end span {
+  margin: 0 8px 0 8px;
 }
