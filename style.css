@@ -1,4 +1,8 @@
-header {
+body {
+  font-family: Roboto;
+}
+
+.header {
   width: 100%;
   height: 84px;
   background-color: #007765;
@@ -9,22 +13,21 @@ header {
   display: flex;
   justify-content: center;
 
-  font-family: Roboto;
   font-size: 24px;
   color: #ffffff;
 }
 
-header > .content {
+.header__content {
   height: 100%;
-  max-width: 1110px;
-  width: 100%;
+  max-width: 1219px;
+  width: calc(100% - 110px);
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-header .content .start {
+.header__logo {
   width: 184px;
   height: 45px;
 
@@ -33,15 +36,8 @@ header .content .start {
   justify-content: center;
 }
 
-header .content .center {
-  height: 45px;
-
-  flex-grow: 1;
-}
-
-header .content .end {
-  width: 500px;
-  height: 45px;
+.header__navbar {
+  height: 100%;
 
   display: flex;
   align-items: center;
@@ -49,6 +45,26 @@ header .content .end {
   flex-wrap: wrap;
 }
 
-header .content .end span {
-  margin: 0 8px 0 8px;
+.header__link {
+  padding: 0 12px;
+  position: relative;
+  cursor: pointer;
+}
+
+.header__link:last-child {
+  padding-right: 0;
+}
+
+.header__link::before {
+  content: "";
+  width: 2px;
+  height: 20px;
+  position: absolute;
+  background-color: white;
+  right: 0;
+  top: calc(50% - 10px);
+}
+
+.header__link:last-child::before {
+  display: none;
 }
