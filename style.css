@@ -137,6 +137,27 @@ body {
   font-weight: 700;
 }
 
+.hero {
+  background-image: url(images/hero.png);
+  height: 483px;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 48px;
+  font-style: italic;
+  text-align: center;
+}
+
+.hero__content {
+  max-width: 893px;
+  max-height: 228px;
+}
+
 .footer {
   height: 176px;
   width: 100%;
