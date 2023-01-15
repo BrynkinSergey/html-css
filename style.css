@@ -171,6 +171,48 @@ body {
   max-height: 228px;
 }
 
+.team {
+  background-color: #eeeeee;
+  min-height: 845px;
+}
+
+.team__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.team__item {
+  height: 283px;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.team__img {
+  width: 168px;
+  height: 168px;
+}
+
+.team__item-name {
+  height: 29px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #007765;
+}
+
+.team__item-role {
+  height: 22px;
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+  font-style: italic;
+}
+
 .footer {
   height: 176px;
   width: 100%;
