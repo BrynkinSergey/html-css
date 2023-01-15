@@ -78,4 +78,18 @@ body {
   height: 176px;
   width: 100%;
   background-color: #333333;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.footer__text {
+  width: 540px;
+  height: 64px;
 }
