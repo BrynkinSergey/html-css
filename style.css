@@ -88,22 +88,34 @@ body {
   font-weight: 500;
 }
 
-.the-problem {
-  width: 100%;
+.the-problem-section {
   min-height: 720px;
+  background-color: #eeeeee;
+}
+
+.introducing-ppc-section {
+  min-height: 604px;
+  background-color: #ffffff;
+}
+
+.introducing-ppc-section__logo {
+  margin-right: 48px;
+}
+
+.default-section {
+  width: 100%;
 
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 
-  background-color: #eeeeee;
   color: black;
   font-size: 32px;
   font-weight: 400;
 }
 
-.the-problem__title {
+.default-section__title {
   height: 75px;
   width: auto;
 
@@ -115,24 +127,25 @@ body {
   margin: 48px 0 16px 0;
 }
 
-.the-problem__content {
+.default-section__content {
   width: 1100px;
   height: 488px;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
-}
-
-.the-problem__text {
-  display: flex;
-  max-width: 1100px;
-  margin-bottom: 37px;
+  align-items: flex-start;
   text-align: start;
 }
 
-.the-problem__text_bold {
+.default-section__item {
+  display: flex;
+  width: auto;
+  max-width: 1100px;
+  margin-bottom: 37px;
+}
+
+.default-section__text_bold {
   display: inline;
   font-weight: 700;
 }
