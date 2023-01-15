@@ -74,6 +74,20 @@ body {
   width: 100%;
 }
 
+.jumbotron {
+  height: 403px;
+  width: 100%;
+  background-image: url(/images/jumbotron-bg.png);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  font-size: 36px;
+  font-weight: 500;
+}
+
 .footer {
   height: 176px;
   width: 100%;
